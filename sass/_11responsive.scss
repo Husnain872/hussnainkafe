@@ -1,0 +1,519 @@
+@media screen and (max-width: 1200px) {
+  .skill {
+    height: 100vh;
+    &__first--content {
+      padding: 50px;
+    }
+  }
+  .about {
+    &__img {
+      left: 12%;
+    }
+    &__content {
+      width: 40%;
+      left: 52%;
+      &--heading1 {
+        font-size: 2rem;
+      }
+      &--heading2 {
+        font-size: 3rem;
+      }
+    }
+  }
+  .checkout {
+    &__content {
+      left: 10%;
+    }
+    &__card {
+      &--one {
+        left: 10%;
+        &--img {
+          width: 270px;
+          height: 220px;
+        }
+      }
+      &--two {
+        left: 40%;
+        &--img {
+          width: 270px;
+          height: 220px;
+        }
+      }
+      &--three {
+        &--img {
+          width: 270px;
+          height: 220px;
+        }
+      }
+    }
+  }
+  .explore {
+    &__content {
+      &--small {
+        font-size: 2rem;
+      }
+      &--large {
+        font-size: 3rem;
+      }
+    }
+    &__card {
+      left: 10rem;
+      &--img {
+        width: 240px;
+      }
+      &--btn {
+        margin-top: 10px;
+      }
+    }
+    .two {
+      left: 30rem;
+    }
+    .three {
+      left: 50rem;
+    }
+  }
+  .form {
+    &__information {
+      left: 7rem;
+      top: 10rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+    &__about {
+      left: 40rem;
+      top: 8rem;
+      &--btn {
+        margin-top: 30px;
+        padding: 10px 15px;
+      }
+    }
+    input {
+      font-size: 1.5rem;
+    }
+  }
+  .footericon {
+    left: 64%;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    &__content {
+      &--first {
+        font-size: 2rem;
+      }
+      &--second {
+        font-size: 4rem;
+      }
+      &--btn {
+        padding: 15px 30px;
+      }
+    }
+  }
+  .skill {
+    &__first--content {
+      padding: 40px;
+    }
+  }
+  .about {
+    &__img {
+      left: 8%;
+      width: 300px;
+      height: 300px;
+    }
+    &__content {
+      width: 40%;
+      left: 52%;
+      top: 20%;
+      &--heading1 {
+        font-size: 1.8rem;
+      }
+      &--heading2 {
+        font-size: 2.7rem;
+      }
+      &--para {
+        font-size: .7rem;
+      }
+    }
+  }
+  .checkout {
+      height: 130vh;
+    &__content {
+      left: 10%;
+      width: 60%;
+      top: 8%;
+      &--first{
+          font-size: 1.5rem;
+      }
+      &--second{
+          font-size: 2.5rem;
+      }
+    }
+    &__card {
+        top: -15%;
+      &--one {
+        left: 8%;
+        &--img {
+          width: 220px;
+          height: 200px;
+        }
+      }
+      &--two {
+        left: 38%;
+        &--img {
+            width: 220px;
+            height: 200px;
+        }
+      }
+      &--three {
+          left: 68%;
+        &--img {
+            width: 220px;
+          height: 200px;
+        }
+      }
+    }
+  }
+  .explore {
+   
+    &__card {
+      left: 3rem;
+      width: 25%;
+      &--img {
+        width: 200px;
+      }
+      &--btn {
+        margin-top: 10px;
+      }
+    }
+    .two {
+      left: 19rem;
+    }
+    .three {
+      left: 35rem;
+    }
+  }
+  .form {
+    &__information {
+      left: 2.5rem;
+      top: 10rem;
+      width: 40%;
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+    &__about {
+      left: 25rem;
+      top: 8rem;
+      &--btn {
+        margin-top: 30px;
+        padding: 5px;
+        font-size: 1rem;
+      }
+    }
+    input {
+      font-size: 1rem;
+    }
+    textarea{
+        font-size: 1rem;
+    }
+  }
+  .footericon {
+    left: 60%;
+    font-size: 1rem;
+    .span-footer{
+        font-size: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    &__content {
+        left: 11%;
+  
+    }
+  }
+  .skill {
+      height: 200vh;
+      display: block;
+    &__first--content {
+      padding: 15px;
+      width: 100%;
+      left: 70%;
+    }
+  }
+  .about {
+      height: 130vh;
+    &__img {
+      left: 15%;
+      top: 10%;
+      width: 400px;
+      height: 400px;
+      display: block;
+    }
+    &__content {
+      width: 70%;
+      left: 15%;
+      top: 60%;
+      &--heading1 {
+        font-size: 1.8rem;
+      }
+      &--heading2 {
+        font-size: 2.7rem;
+      }
+      &--para {
+        font-size: .7rem;
+      }
+    }
+  }
+  .checkout {
+      height: 200vh;
+    &__content {
+      left: 15%;
+      width: 60%;
+      top: 8%;
+      &--first{
+          font-size: 1.5rem;
+      }
+      &--second{
+          font-size: 2rem;
+      }
+      &--para{
+          font-size: 1rem;
+      }
+    }
+    &__card {
+        top: -8%;
+      &--one {
+        left: 20%;
+        &--img {
+            width: 400px;
+            height: 200px;
+        }
+      }
+      &--two {
+         top: 63rem;
+        left: 20%;
+        &--img {
+            width: 400px;
+          height: 200px;
+        }
+      }
+      &--three {
+          top: 83rem;
+          left: 20%;
+        &--img {
+            width: 400px;
+          height: 200px;
+        }
+      }
+    }
+  }
+  .explore {
+      height: 250vh;
+      &__content{
+          top: 5%;
+          &--large{
+              font-size: 2rem;
+          }
+      }
+   
+    &__card {
+      left: 9rem;
+      width: 50%;
+      &--img {
+        width: 100%;
+      }
+      &--btn {
+        margin-top: 10px;
+      }
+    }
+    .two {
+        top: 52rem;
+      left: 9rem;
+    }
+    .three {
+        top: 90rem;
+      left: 9rem;
+    }
+  }
+  .form {
+    &__information {
+      left: 9rem;
+      top: 3rem;
+      width: 50%;
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+    &__about {
+      left: 9rem;
+      top: 26rem;
+      width: 50%;
+      &--btn {
+        margin-top: 30px;
+        padding: 5px;
+        font-size: 1rem;
+      }
+    }
+    input {
+      font-size: 1rem;
+    }
+    textarea{
+        font-size: 1rem;
+    }
+  }
+  .footer{
+      height: 20vh;
+     
+  }
+  .footericon {
+    left: 60%;
+    font-size:.5rem;
+    .span-footer{
+        font-size: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+      &__content {
+          left: 5%;
+          &--second{
+              font-size: 3rem;
+          }
+    
+      }
+    }
+ 
+    .about {
+        height: 130vh;
+      &__img {
+        left: 15%;
+        top: 10%;
+        width: 300px;
+        height: 300px;
+        display: block;
+      }
+      &__content {
+        width: 70%;
+        left: 15%;
+        top: 50%;
+  
+      }
+    }
+    .checkout {
+        height: 200vh;
+      &__content {
+        left: 15%;
+        width: 60%;
+        top: 3%;
+        &--first{
+            font-size: 1.5rem;
+        }
+        &--second{
+            font-size: 2rem;
+        }
+        &--para{
+            font-size: 1rem;
+        }
+      }
+      &__card {
+          top: -8%;
+        &--one {
+          left: 20%;
+          &--img {
+              width: 250px;
+              height: 200px;
+          }
+        }
+        &--two {
+           top: 63rem;
+          left: 20%;
+          &--img {
+              width: 250px;
+            height: 200px;
+          }
+        }
+        &--three {
+            top: 83rem;
+            left: 20%;
+          &--img {
+              width: 250px;
+            height: 200px;
+          }
+        }
+      }
+    }
+    .explore {
+        height: 250vh;
+        &__content{
+            top: 5%;
+            &--large{
+                font-size: 2rem;
+            }
+        }
+     
+      &__card {
+        left: 6rem;
+        width: 50%;
+        &--img {
+          width: 100%;
+        }
+        &--btn {
+          margin-top: 10px;
+        }
+      }
+      .two {
+          top: 52rem;
+        left: 6rem;
+      }
+      .three {
+          top: 90rem;
+        left: 6rem;
+      }
+    }
+    .form {
+      &__information {
+        left: 5rem;
+        top: 3rem;
+        width: 70%;
+      }
+      h1 {
+        font-size: 1rem;
+      }
+      &__about {
+        left: 5rem;
+        top: 23rem;
+        width: 50%;
+        &--btn {
+          margin-top: 30px;
+          padding: 5px;
+          font-size: 1rem;
+        }
+      }
+      input {
+        font-size: 1rem;
+      }
+      textarea{
+          font-size: 1rem;
+      }
+    }
+    .footer{
+        height: 20vh;
+       
+    }
+
+    .footericon {
+      left: 55%;
+      font-size:.3rem;
+      .span-footer{
+          font-size: .3rem;
+      }
+    }
+  }
+  

@@ -1,0 +1,34 @@
+.skill {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+  &__first--content {
+    width: 49.5%;
+    height: 50vh;
+
+    display: inline-block;
+    text-align: center;
+    padding: 80px;
+    font-family: sans-serif;
+
+    &--heading {
+      padding: 30px;
+      color: rgb(57, 129, 134);
+      font-size: 2rem;
+    }
+    // &--heading:hover {
+    //   color: black;
+    // }
+    &--para {
+      font-size: 1.5rem;
+    }
+  }
+  &__first--content:hover {
+    background-color: rgb(172, 172, 29);
+    color: white;
+  }
+  .icon {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,68 @@
+.form {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  span {
+    color: rgb(172, 172, 29);
+    font-size: 2rem;
+    font-family: "Neonderthaw";
+    letter-spacing: 5px;
+
+    margin-left: 20px;
+  }
+  background-color: rgb(255, 255, 255);
+  &__information {
+    position: absolute;
+    width: 35%;
+    top: 15rem;
+    left: 12rem;
+  }
+  h1 {
+    font-family: sans-serif;
+    font-size: 2rem;
+    padding-top: 10px;
+    margin-bottom: 25px;
+  }
+  &__about {
+    width: 40%;
+    position: absolute;
+    left: 50rem;
+    top: 10rem;
+    margin-top: 20px;
+    &--btn {
+      padding: 10px 20px;
+      font-size: 2rem;
+      background-color: rgb(172, 172, 29);
+      color: black;
+      margin-top: 20px;
+      border: none;
+      outline-offset: 5px;
+      outline: 5px solid rgb(172, 172, 29);
+    }
+  }
+  input {
+    display: block;
+    width: 95%;
+    color: rgb(172, 172, 29);
+    font-size: 2rem;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid rgb(172, 172, 29);
+    outline: none;
+  }
+  textarea {
+    width: 94%;
+    display: block;
+    color: rgb(172, 172, 29);
+    font-size: 2rem;
+    border: none;
+    border-bottom: 2px solid rgb(172, 172, 29);
+    outline: none;
+  }
+}
+
+.formicon {
+  font-size: 2rem;
+  color: rgb(172, 172, 29);
+}
